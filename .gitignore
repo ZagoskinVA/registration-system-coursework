@@ -3,3 +3,4 @@ regsys/__pycache__
 reg-sys-cw/__pycache__
 *.pyc
 *_env
+.idea/

@@ -620,7 +620,7 @@ def qr_generate(request):
         headers={"Content-Disposition": 'attachment; filename="%s"' % filename},
     )
     
-    link = 'https://hse-reg-sys.dns-dynamic.net/qr/read/'
+    link = 'http://static.151.188.179.185.ip.webhost1.net/qr/read/'
     link += '?timetable=' + str(request.GET["timetable"])
     link += '&guest=' + str(request.GET["guest"])
     qr = qrcode.QRCode()
